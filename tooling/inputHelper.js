@@ -23,10 +23,9 @@ const getInput = (day) => (
     .then(result => (result))
     .catch(error => console.log('error', error))
 )
-const runner = async () => {
-    const input = await getInput(11);
+const runner = async (day) => {
+    const input = await getInput(day);
     const result = multilineStringToArray(input);
     console.log({result})
 }
-runner()
-
+export { runner }
