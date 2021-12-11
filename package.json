@@ -1,0 +1,28 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "advent-of-code-repo plus helpers",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelDimmitt/advent-of-code.git"
+  },
+  "keywords": [
+    "code",
+    "challenge",
+    "advent-of-code"
+  ],
+  "author": "michaeldimmitt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelDimmitt/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/MichaelDimmitt/advent-of-code#readme",
+  "dependencies": {
+    "node-fetch": "latest"
+  }
+}
