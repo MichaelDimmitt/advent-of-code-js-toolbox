@@ -14,6 +14,8 @@ Click get your puzzle input.<br/>
 In chrome go to network tab and copy as curl https://adventofcode.com/2021/day/11/input .<br/>
 Paste into your terminal and copy the section after `-H 'cookie: ` and before `'   --compressed`
 
+2) How can I check that the cookie is loaded correctly from my terminal ?<br/>
+echo $AdventCookie
 
 ## Get advent of code input using javascript and transform it to an array of strings
 1) This project was built using node --version 17.2.0
